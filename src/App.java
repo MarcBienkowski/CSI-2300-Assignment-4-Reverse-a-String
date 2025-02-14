@@ -24,9 +24,9 @@ public class App {
                 Scanner_Response = scanner.nextLine();
                 switch(Scanner_Response){
                     case "exit":
+                        scanner.close();
                         System.exit(0);
                     case "continue":
-                        scanner.close();
                         break;
                     default:
                         System.out.println("Please enter a valid key word");
